@@ -1,0 +1,2 @@
+Unsorted Integer Array:
+For a single interation, I looked for both the min and max values concurrently so that I won't have to use a separate for loop to iterate for the next smallest or largest value. The time complexity is stuck at O(n), where n is the number of elements in the list, since we need to perform a linear search to find the smallest and largest elements. The space complexity is at O(n) since we need an array to store n number of elements.

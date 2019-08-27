@@ -1,0 +1,2 @@
+Square Root:
+For this problem, I decided to use binary search to be able to search for a value that was equal to or if its current square was less than the given number and the next value was greater than the given number. I took the given number and started the count from 0...n, where n is the given number, and then used binary search to find the value that met the conditions I mentioned. Since I used binary search I was able to find a floor value of the square root of a number in O(logn). The space complexity was O(1), since I did not use any auxiliary storage. 
